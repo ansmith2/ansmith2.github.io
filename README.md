@@ -17,9 +17,9 @@ This repository will hold my assignments for my programming class.
 
 ## Websites I Recommend
 
-   - [BuzzFeed](https://www.buzzfeed.com)  Here you can find what's trending, quizzes, breaking news and a bunch of different food videos. I find this interesting because there is always something new to learn!
+   - [BuzzFeed](https://www.buzzfeed.com) Here you can find what is trending, quizzes, breaking news and a bunch of different food videos. I find this interesting because there is always something new to learn!
 
-   - [Wordle]( https://www.nytimes.com/games/wordle)  Wordle is just plain fun, each day you have 6 tries to guess the 5 letter word of the day. You can also navigate other games on the _New York Times_ website.
+   - [Wordle]( https://www.nytimes.com/games/wordle) Wordle is just plain fun, each day you have 6 tries to guess the 5 letter word of the day. You can also navigate other games on the _New York Times_ website.
 
 
 
