@@ -44,7 +44,7 @@
                 document.getElementById("result").innerText = "Interest rate cannot be zero.";
                 return;
             }
-
+            
             const monthlyPayment = (principal * rate * monthlyRate) / (monthlyRate - 1);
             document.getElementById("result").innerText = `Your monthly payment is $${monthlyPayment.toFixed(2)}`;
         }
