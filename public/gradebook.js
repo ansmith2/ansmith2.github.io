@@ -13,7 +13,7 @@ xhr.onreadystatechange = function(){
   if(xhr.readyState === xhr.DONE){
     // Check if we're successful
     if(xhr.status !== 200){
-      console.error('Could not get grades. Status: ${xhr.status}');
+      console.error(`Could not get grades. Status: ${xhr.status}`);
 }
     // And then call the function to update the HTML with our date
     populateGradebook(JSON.parse(xhr.responseText));
@@ -26,7 +26,7 @@ xhr.onreadystatechange = function(){
 function populateGradebook(data){}
   // This function will take the fetched grade data and populate the table
 console.log("Populating gradebook with data:", data);
-let tableEml = document.getElementById("gradebook"); //Get the gradebook table element
+let tableElm = document.getElementById("gradebook"); //Get the gradebook table element
   data.forEach(function(assignment){ //For each row of data we're passed in
     let row = document.createElement('tr'); // Create a table row element
     let columns = []; // Handy place to stick the columns of information
