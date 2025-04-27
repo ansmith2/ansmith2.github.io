@@ -7,7 +7,7 @@ let xhr = new XMLHttpRequest();
   //This is the address on the machine we're asking for data
 let apiRoute = "/api/grades";
   // When the request changes status, we run this anonymous function
-xhr.onereadystatechange = function(){
+xhr.onreadystatechange = function(){
   let results;
   // Check if we're done
   if(xhr.readyState === xhr.DONE){
