@@ -23,7 +23,7 @@ xhr.onreadystatechange = function(){
   xhr.send();
 }
 // TODO: Populate the table with grade date
-function populateGradebook(data){}
+function populateGradebook(data){
   // This function will take the fetched grade data and populate the table
 console.log("Populating gradebook with data:", data);
 let tableElm = document.getElementById("gradebook"); //Get the gradebook table element
@@ -46,11 +46,11 @@ let tableElm = document.getElementById("gradebook"); //Get the gradebook table e
     row.appendChild(columns.grade);
     // Add the row to the table itself to make the data visible
     tableElm.appendChild(row);
- 
+ });
 
 //TODO REMOVE THIS
 // Call the stubs to demonstrate the workflow
 const gradeData = fetchGradeData();
 populateGradebook(gradeData);
 // END REMOVE
-});
+
