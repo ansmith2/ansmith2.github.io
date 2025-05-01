@@ -3,7 +3,7 @@ function fetchGradeData() {
   // This function will query the PostgreSQL database and return grade data
 console.log("Fetching grade data...");
   // Create a new request for HTTP data
-let xhr = new XMLHttpRequest("http://localhost:3000");
+let xhr = new XMLHttpRequest("http://localhost:3000/");
   //This is the address on the machine we're asking for data
 let apiRoute = "/api/grades";
   // When the request changes status, we run this anonymous function
