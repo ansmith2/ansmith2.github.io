@@ -53,4 +53,4 @@ let tableElm = document.getElementById("gradebook"); //Get the gradebook table e
 const gradeData = fetchGradeData();
 populateGradebook(gradeData);
 // END REMOVE
-
+}
