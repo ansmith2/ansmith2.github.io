@@ -50,7 +50,6 @@ let tableElm = document.getElementById("gradebook"); //Get the gradebook table e
 }
 //TODO REMOVE THIS
 // Call the stubs to demonstrate the workflow
-const gradeData = fetchGradeData();
-populateGradebook(gradeData);
+fetchGradeData();
 // END REMOVE
 
