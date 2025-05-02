@@ -3,9 +3,9 @@ function fetchGradeData() {
   // This function will query the PostgreSQL database and return grade data
 console.log("Fetching grade data...");
   // Create a new request for HTTP data
-let xhr = new XMLHttpRequest("http://localhost:3000");
+let xhr = new XMLHttpRequest();
   //This is the address on the machine we're asking for data
-let apiRoute = "/api/grades";
+  let apiRoute = "/api/grades";
   // When the request changes status, we run this anonymous function
 xhr.onreadystatechange = function(){
   let results;
@@ -22,7 +22,7 @@ xhr.onreadystatechange = function(){
   xhr.open("get", apiRoute, true);
   xhr.send();
 }
-// TODO: Populate the table with grade date
+// TODO: Populate the table with grade data
 function populateGradebook(data){
   // This function will take the fetched grade data and populate the table
 console.log("Populating gradebook with data:", data);
@@ -46,7 +46,7 @@ let tableElm = document.getElementById("gradebook"); //Get the gradebook table e
     row.appendChild(columns.grade);
     // Add the row to the table itself to make the data visible
     tableElm.appendChild(row);
- });
+  });
 }
 //TODO REMOVE THIS
 // Call the stubs to demonstrate the workflow
